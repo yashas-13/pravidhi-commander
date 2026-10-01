@@ -2,18 +2,18 @@
 
 **Pravidh Commander** is the branded Remote MCP control surface for the Pravidhi control plane. It provides a secure dashboard for authenticated device visibility, usage, account settings, and MCP connectivity at `https://mcp.pravidhisolutions.in/dashboard/`.
 
-> The underlying control-plane architecture remains Pravidhi OS; **Pravidh Commander** is the user-facing product/dashboard name.
+> The underlying control-plane architecture remains Pravidh Commander; **Pravidh Commander** is the user-facing product/dashboard name.
 
 
-**Pravidhi OS** is a security-focused agent control plane for supervised AI-assisted operations on infrastructure and authorized computing resources.
+**Pravidh Commander** is a security-focused agent control plane for supervised AI-assisted operations on infrastructure and authorized computing resources.
 
 It provides a policy boundary between an AI client and the systems the AI is allowed to operate. The architecture is built around **authentication, tenant isolation, RBAC, capability controls, approval gates, constrained execution, and auditability** rather than unrestricted machine access.
 
-> **Security boundary:** Pravidhi OS is intended only for systems, accounts, networks, applications, and data that the operator is authorized to administer.
+> **Security boundary:** Pravidh Commander is intended only for systems, accounts, networks, applications, and data that the operator is authorized to administer.
 
 ## What it does
 
-Pravidhi OS can provide a unified control workflow for:
+Pravidh Commander can provide a unified control workflow for:
 
 - 🔐 OIDC/OAuth-based identity and token validation
 - 👥 Role-based access control (RBAC)
@@ -280,7 +280,7 @@ The repository is the canonical open-source source/documentation tree for the Pr
 ### Python/runtime
 
 ```bash
-git clone https://github.com/yashas-13/Pravidhi-OS.git
+git clone https://github.com/yashas-13/pravidhi-commander.git
 cd Pravidhi-OS
 python -m venv .venv
 source .venv/bin/activate
